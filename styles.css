@@ -1,9 +1,9 @@
 body{
-    background-color: black;
+    background-color: rgb(156, 208, 239);
     margin: 0;
 }
 h1{
-    color: white;
+    color: black;
     font-size: 80px;
     text-align: center;
 }
@@ -12,7 +12,7 @@ h1{
     margin-bottom: 20px;
 }
 .number{
-    color: white;
+    color: black;
     width: 100px;
     height: 100px;
     border: 1px solid white;
@@ -34,6 +34,25 @@ h1{
     margin-bottom: 50px;
     width: 200px;
 }
-.selected{
-    background-color:grey;
+
+.number1{
+    color: black;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    line-height: 100px;
+    text-align: center;
+    display: inline-block;
+    margin: 7px;
+}
+
+.user-board{
+    margin: 150px;
+}
+.board-title{
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: -50px;
+    margin-top: 80px;
 }
